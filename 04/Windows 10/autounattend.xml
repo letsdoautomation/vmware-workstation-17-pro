@@ -90,5 +90,4 @@
             <UserLocale>en-US</UserLocale>
         </component>
     </settings>
-    <cpi:offlineImage xmlns:cpi="urn:schemas-microsoft-com:cpi"/>
 </unattend>
