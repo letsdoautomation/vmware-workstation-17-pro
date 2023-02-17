@@ -1,3 +1,4 @@
+Command for creating ISO disk image:
 ```powershell
 cd "C:\Program Files (x86)\VMware\VMware Workstation"
 
