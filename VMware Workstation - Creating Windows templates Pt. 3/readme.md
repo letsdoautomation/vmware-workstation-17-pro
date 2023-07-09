@@ -1,4 +1,4 @@
 Creating local user account:
 ```powershell
-net user admin  /add
+net user admin /add
 ```
