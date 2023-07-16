@@ -8,7 +8,7 @@ Add local user admin to administrators group:
 net localgroup administrators admin /add
 ```
 Disable "Privacy Experience"
-![Privacy Experience](img/privacySettings.png)
+<img src="img/privacySettings.png" width=40% height=40%>
 ```powershell
 reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\OOBE /v DisablePrivacyExperience /t REG_DWORD /d 1
 ```
