@@ -14,6 +14,7 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\OOBE /v DisablePrivacyExperienc
 ```
 Install "VMware tools"
 ```powershell
+# ISO location "C:\Program Files (x86)\VMware\VMware Workstation\windows.iso"
 cmd /c setup64.exe /s /v"/qn REBOOT=ReallySuppress"
 ```
 Disable monitor power off
@@ -27,5 +28,6 @@ powercfg /x -standby-timeout-ac 0
 ## Creating ISO
 Command for creating ISO disk image:
 ```powershell
+# This tool is part of vmware workstation installation
 . "C:\Program Files (x86)\VMware\VMware Workstation\mkisofs.exe" -r -iso-level 4 -output "C:\DESTINATION\Windows10_autounatted.iso" "C:\SOURCE\"
 ```
